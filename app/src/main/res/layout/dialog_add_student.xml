@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText để nhập tên sinh viên -->
+    <EditText
+        android:id="@+id/studentNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên sinh viên"
+        android:inputType="textPersonName" />
+
+    <!-- EditText để nhập MSSV -->
+    <EditText
+        android:id="@+id/studentMssvEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MSSV"
+        android:inputType="text" />
+
+</LinearLayout>
